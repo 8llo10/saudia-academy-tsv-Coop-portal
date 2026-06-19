@@ -1,18 +1,13 @@
 # Saudia Academy TSV Co-op Portal
 
+**emspsaa.com**  
+[https://emspsaa.com/](https://emspsaa.com/)
+
 A cooperative training project developed for the **TSV Technical Services Department** at **Saudia Academy**.
 
-This project is a portal landing page designed to provide quick access to selected department systems and project links through a clean, modern, glass-style interface.
+This project is an operational portal menu used to provide quick access to selected department systems and project links through a clean, modern, glass-style interface.
 
-> This repository contains a public showcase version of the project. Sensitive internal files, passwords, protected folders, and private access logic are intentionally excluded.
-
----
-
-## Live Website
-
-The live website below represents the complete deployed version:
-
-[Visit the Live Portal](https://emspsaa.com/)
+> This repository contains a cleaned public version of the portal. Sensitive internal files, passwords, protected folders, and private access logic are intentionally excluded.
 
 ---
 
@@ -24,18 +19,28 @@ The live website below represents the complete deployed version:
 
 ---
 
-## Project Overview
+## About the Project
 
-The portal was created as part of a **Co-op Training** experience to organize and present TSV Technical Services Department tools in one accessible place.
+The portal was created during my **Co-op Training** experience to organize TSV Technical Services Department tools in one accessible place.
 
-It provides access to selected systems and project links, including:
+Instead of keeping each system separate or hard to reach, the portal works as a central menu that connects users to the department’s selected systems and project pages.
+
+The live website represents the operational version currently available at:
+
+[https://emspsaa.com/](https://emspsaa.com/)
+
+---
+
+## Included Systems
+
+The portal provides access to selected systems and links, including:
 
 - **MDCS** — Managing Data Collection System
 - **EMS** — Employees Management System
 - **WA** — Walk Around
-- **FSTD SWOT Analyses** — Display-only protected section notice in the public repository
+- **FSTD SWOT Analyses** — Protected internal section
 
-The live version may include internal access behavior, while this public repository keeps sensitive parts removed or converted into safe display-only elements.
+In the public GitHub version, the FSTD section is kept as a display-only protected card and popup notice. The actual protected access files and internal content are not included.
 
 ---
 
@@ -43,21 +48,23 @@ The live version may include internal access behavior, while this public reposit
 
 This repository does **not** include the full internal protected implementation.
 
-The complete live version includes protected access handling for the FSTD section using a PHP password verification file. However, the PHP file, password logic, protected folders, and sensitive internal content are intentionally excluded from this public repository.
+The complete operational version includes protected access handling for the FSTD section using a PHP password verification file. However, the PHP file, password logic, protected folders, and sensitive internal content are intentionally excluded from this public repository.
 
-In this public version, the FSTD SWOT Analyses section is kept as a display-only protected card and popup notice for presentation purposes.
+This public version keeps the portal structure, interface, and user experience visible while removing anything that should not be shared publicly.
+
 ---
 
 ## Features
 
-- Clean portal landing page
-- Glassmorphism-style project cards
+- Central portal menu for department systems
+- Clean glassmorphism-style cards
 - Background image with dark overlay
 - Department branding area
 - External system links
-- Display-only protected section notice
-- Simple popup interaction
-- Clean HTML, CSS, and JavaScript structure
+- Protected-section card and popup notice
+- Simple JavaScript popup interaction
+- Responsive page structure
+- Public-safe version for GitHub showcase
 
 ---
 
@@ -66,7 +73,7 @@ In this public version, the FSTD SWOT Analyses section is kept as a display-only
 - **HTML5**
 - **CSS3**
 - **Vanilla JavaScript**
-- **PHP** — used in the complete live version for protected FSTD access handling
+- **PHP** — used in the operational version for protected FSTD access handling
 - **Font Awesome**
 - **Google Fonts — Tajawal**
 
@@ -74,21 +81,22 @@ In this public version, the FSTD SWOT Analyses section is kept as a display-only
 
 ## Linked Platforms
 
-The portal includes links or references to external department systems and platforms, such as:
+The portal includes links or references to external and internal department systems, such as:
 
 - **Microsoft Power Apps** for MDCS
 - **EMS platform**
 - **Firebase-hosted Walk Around system**
-- Internal protected FSTD system, excluded from this public repository
+- **Internal protected FSTD system** — excluded from this public repository
 
 ---
 
 ## Important Notes
 
-This repository is intended as a **public showcase** of the Co-op Training portal interface.
+This repository is intended as a public-safe showcase of the Co-op Training portal.
 
-The following are intentionally excluded:
+The following items are intentionally excluded:
 
+- PHP password verification files
 - Password files
 - Internal protected folders
 - Sensitive access logic
@@ -100,9 +108,9 @@ The following are intentionally excluded:
 
 ## Project Status
 
-This project is a **public showcase version** of a Co-op Training portal.
+The portal is a real project created during Co-op Training and used as a central access menu for TSV department systems.
 
-The live website represents the complete deployed version, while this repository contains a cleaned version suitable for GitHub.
+This GitHub repository contains a cleaned public version that preserves the interface and project structure while excluding sensitive internal implementation details.
 
 ---
 
