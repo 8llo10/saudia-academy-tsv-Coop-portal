@@ -2,15 +2,17 @@
 
 A cooperative training project developed for the **TSV Technical Services Department** at **Saudia Academy**.
 
-This project is a clean portal page that provides quick access to selected department systems and project links through a simple, modern, glass-style interface.
+This project is a portal landing page designed to provide quick access to selected department systems and project links through a clean, modern, glass-style interface.
 
-> This public version does not include sensitive internal files, passwords, or protected access logic.
+> This repository contains a public showcase version of the project. Sensitive internal files, passwords, protected folders, and private access logic are intentionally excluded.
 
 ---
 
 ## Live Website
 
-[Visit the Portal](https://emspsaa.com/)
+The live website below represents the complete deployed version:
+
+[Visit the Live Portal](https://emspsaa.com/)
 
 ---
 
@@ -24,60 +26,83 @@ This project is a clean portal page that provides quick access to selected depar
 
 ## Project Overview
 
-The portal was created as part of a **Co-op Training** experience to organize and present department-related tools in one accessible landing page.
+The portal was created as part of a **Co-op Training** experience to organize and present TSV Technical Services Department tools in one accessible place.
 
-It includes links to selected systems such as:
+It provides access to selected systems and project links, including:
 
 - **MDCS** — Managing Data Collection System
 - **EMS** — Employees Management System
 - **WA** — Walk Around
-- **FSTD SWOT Analyses** — Display-only protected section notice
+- **FSTD SWOT Analyses** — Display-only protected section notice in the public repository
 
-The FSTD section is shown as a protected card for presentation purposes only. Access credentials, backend files, and sensitive internal content are intentionally excluded from this public repository.
+The live version may include internal access behavior, while this public repository keeps sensitive parts removed or converted into safe display-only elements.
 
+---
+
+## Public Repository Scope
+
+This repository does **not** include the full internal protected implementation.
+
+The complete live version includes protected access handling for the FSTD section using a PHP password verification file. However, the PHP file, password logic, protected folders, and sensitive internal content are intentionally excluded from this public repository.
+
+In this public version, the FSTD SWOT Analyses section is kept as a display-only protected card and popup notice for presentation purposes.
 ---
 
 ## Features
 
-- Responsive landing page
+- Clean portal landing page
 - Glassmorphism-style project cards
-- Background image overlay
+- Background image with dark overlay
 - Department branding area
-- Protected-section popup notice
 - External system links
+- Display-only protected section notice
+- Simple popup interaction
 - Clean HTML, CSS, and JavaScript structure
 
 ---
 
 ## Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript
-- Font Awesome
-- Google Fonts
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript**
+- **PHP** — used in the complete live version for protected FSTD access handling
+- **Font Awesome**
+- **Google Fonts — Tajawal**
+
+---
+
+## Linked Platforms
+
+The portal includes links or references to external department systems and platforms, such as:
+
+- **Microsoft Power Apps** for MDCS
+- **EMS platform**
+- **Firebase-hosted Walk Around system**
+- Internal protected FSTD system, excluded from this public repository
 
 ---
 
 ## Important Notes
 
-This repository is a public showcase version of the project.
+This repository is intended as a **public showcase** of the Co-op Training portal interface.
 
-The following items are not included:
+The following are intentionally excluded:
 
 - Password files
 - Internal protected folders
 - Sensitive access logic
 - Private department data
 - Internal-only resources
+- Full protected FSTD implementation
 
 ---
 
 ## Project Status
 
-This project is currently a **public showcase version** of a Co-op Training portal.
+This project is a **public showcase version** of a Co-op Training portal.
 
-Some internal sections were removed or converted into display-only elements to keep the repository safe for public viewing.
+The live website represents the complete deployed version, while this repository contains a cleaned version suitable for GitHub.
 
 ---
 
