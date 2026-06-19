@@ -17,7 +17,7 @@ This project is a clean portal page that provides quick access to selected depar
 ## Preview
 
 <a href="https://emspsaa.com/" target="_blank">
-  <img src="assets/preview.png" alt="Saudia Academy TSV Portal Preview" width="100%">
+  <img src="asset/preview.png" alt="Saudia Academy TSV Portal Preview" width="100%">
 </a>
 
 ---
