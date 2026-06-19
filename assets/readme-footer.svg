@@ -1,0 +1,66 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Saudia Academy TSV Co-op Portal animated footer</title>
+  <desc id="desc">A soft animated aviation maintenance footer for a GitHub README.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071017"/>
+      <stop offset="0.52" stop-color="#102333"/>
+      <stop offset="1" stop-color="#071017"/>
+    </linearGradient>
+
+    <linearGradient id="runway" x1="100" y1="0" x2="1100" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B7D7E8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#B7D7E8" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#B7D7E8" stop-opacity="0"/>
+    </linearGradient>
+
+    <style>
+      .text { font: 500 16px 'Segoe UI', Arial, sans-serif; fill: #D8E7F2; opacity: .84; }
+      .small { font: 400 13px 'Segoe UI', Arial, sans-serif; fill: #B7D7E8; opacity: .68; }
+      .runway { stroke-dasharray: 18 22; animation: runway 18s linear infinite; }
+      .plane { animation: planeMove 12s ease-in-out infinite; transform-origin: center; }
+      .spark { animation: spark 2.7s ease-in-out infinite; transform-origin: center; }
+      .spark2 { animation-delay: .8s; }
+      .spark3 { animation-delay: 1.4s; }
+      .float { animation: float 6s ease-in-out infinite; transform-origin:center; opacity: .36; }
+
+      @keyframes runway { to { stroke-dashoffset: -400; } }
+      @keyframes planeMove {
+        0% { transform: translateX(-160px) translateY(8px) rotate(1deg); opacity: 0; }
+        14% { opacity: .78; }
+        48% { transform: translateX(520px) translateY(-6px) rotate(-2deg); opacity: .85; }
+        90% { opacity: .78; }
+        100% { transform: translateX(1280px) translateY(2px) rotate(1deg); opacity: 0; }
+      }
+      @keyframes spark {
+        0%,100% { opacity: .1; transform: scale(.85); }
+        50% { opacity: .55; transform: scale(1.12); }
+      }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="180" rx="26" fill="url(#bg)"/>
+  <path d="M95 112 H1105" stroke="url(#runway)" stroke-width="1.5" class="runway"/>
+  <path d="M145 133 H1055" stroke="#D8E7F2" stroke-opacity=".08" stroke-width="1"/>
+
+  <g class="plane">
+    <path d="M80 78 L150 96 L156 108 L89 101 L68 126 L53 122 L64 96 L28 91 L21 82 L64 83 L88 58 L102 61 L80 78Z" fill="#F7FBFF" opacity=".76"/>
+    <path d="M64 83 L28 91 L21 82 L64 83Z" fill="#8AB8D6" opacity=".62"/>
+    <path d="M89 101 L68 126 L53 122 L64 96Z" fill="#8AB8D6" opacity=".5"/>
+  </g>
+
+  <g transform="translate(892 47)" class="float">
+    <circle cx="38" cy="38" r="30" stroke="#D8E7F2" stroke-width="2"/>
+    <path d="M38 13 V27 M38 49 V63 M13 38 H27 M49 38 H63" stroke="#D8E7F2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M24 24 L31 31 M52 52 L45 45 M24 52 L31 45 M52 24 L45 31" stroke="#B7D7E8" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="265" cy="65" r="3" fill="#D8E7F2" class="spark"/>
+  <circle cx="293" cy="82" r="2.5" fill="#B7D7E8" class="spark spark2"/>
+  <circle cx="323" cy="60" r="2" fill="#D8E7F2" class="spark spark3"/>
+
+  <text class="text" x="600" y="72" text-anchor="middle">Built during Co-op Training • Saudia Academy — TSV Technical Services Department</text>
+  <text class="small" x="600" y="104" text-anchor="middle">Public-safe showcase version • Sensitive internal files intentionally excluded</text>
+</svg>

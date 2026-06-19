@@ -1,6 +1,13 @@
+<div align="center">
+
+<img src="assets/readme-header.svg" alt="Saudia Academy TSV Co-op Portal animated header" width="100%" />
+
+<br />
+
 # Saudia Academy TSV Co-op Portal
 
 **emspsaa.com**  
+
 [https://emspsaa.com/](https://emspsaa.com/)
 
 A cooperative training project developed for the **TSV Technical Services Department** at **Saudia Academy**.
@@ -8,6 +15,8 @@ A cooperative training project developed for the **TSV Technical Services Depart
 This project is an operational portal menu used to provide quick access to selected department systems and project links through a clean, modern, glass-style interface.
 
 > This repository contains a cleaned public version of the portal. Sensitive internal files, passwords, protected folders, and private access logic are intentionally excluded.
+
+</div>
 
 ---
 
@@ -35,10 +44,12 @@ The live website represents the operational version currently available at:
 
 The portal provides access to selected systems and links, including:
 
-- **MDCS** — Managing Data Collection System
-- **EMS** — Employees Management System
-- **WA** — Walk Around
-- **FSTD SWOT Analyses** — Protected internal section
+| System | Description |
+|---|---|
+| **MDCS** | Managing Data Collection System |
+| **EMS** | Employees Management System |
+| **WA** | Walk Around |
+| **FSTD SWOT Analyses** | Protected internal section |
 
 In the public GitHub version, the FSTD section is kept as a display-only protected card and popup notice. The actual protected access files and internal content are not included.
 
@@ -70,12 +81,14 @@ This public version keeps the portal structure, interface, and user experience v
 
 ## Tech Stack
 
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-- **PHP** — used in the operational version for protected FSTD access handling
-- **Font Awesome**
-- **Google Fonts — Tajawal**
+| Technology | Usage |
+|---|---|
+| **HTML5** | Page structure |
+| **CSS3** | Styling, layout, and glassmorphism interface |
+| **Vanilla JavaScript** | Popup interaction |
+| **PHP** | Used in the operational version for protected FSTD access handling |
+| **Font Awesome** | Interface icons |
+| **Google Fonts — Tajawal** | Typography |
 
 ---
 
@@ -118,3 +131,11 @@ This GitHub repository contains a cleaned public version that preserves the inte
 
 **Co-op Training**  
 Saudia Academy — TSV Technical Services Department
+
+<br />
+
+<div align="center">
+
+<img src="assets/readme-footer.svg" alt="Saudia Academy TSV Co-op Portal animated footer" width="100%" />
+
+</div>
